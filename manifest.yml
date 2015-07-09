@@ -1,0 +1,7 @@
+# Dashboard Manifest
+applications:
+- name: easycode
+memory: 512MB
+host: easycode
+disk_quota: 80MB
+buildpack:  php_buildpack	
