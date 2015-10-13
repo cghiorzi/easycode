@@ -43,4 +43,4 @@ Temporary Items
 .apdisk
 
 # Package files
-target/**
+/target/**
