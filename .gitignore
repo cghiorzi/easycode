@@ -43,6 +43,4 @@ Temporary Items
 .apdisk
 
 # Package files
-target/easycode-0.0.1-SNAPSHOT.jar
-target/easycode-0.0.1-SNAPSHOT.jar.original
-target/surefire-reports/easycode.EasycodeApplicationTests.txt
+target/**
