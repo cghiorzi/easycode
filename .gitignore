@@ -42,5 +42,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Compiled Binaries
-target/**
+# Package files
+*.jar
+*.war
+*.ear
