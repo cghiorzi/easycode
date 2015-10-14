@@ -20,6 +20,6 @@ To Install:
 * `cf push` to send to Cloud Foundry
 
 To Update
-* Edit the `getName()` in the `src/main/resources/templates/index.html` file 
+* Edit the `getName()` function in the `src/main/resources/templates/index.html` file 
 * Run `mvn package` in the top level easycode directory to recompile the Java jar
 * `cf push` to send to Cloud Foundry
