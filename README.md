@@ -12,6 +12,7 @@ will accept any location that Google Maps accepts, such as:
 
 
 To Install:
+-
 * Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Install [Apache Maven](https://maven.apache.org/download.cgi)
 * Git clone this repo
@@ -19,7 +20,8 @@ To Install:
 * Edit the Cloud Foundry `manifest.yml` file and change the `name` and `host` parameters to something unique
 * `cf push` to send to Cloud Foundry
 
-To Update
+To Update:
+-
 * Edit the `getName()` function in the `src/main/resources/templates/index.html` file 
 * Run `mvn package` in the top level easycode directory to recompile the Java jar
 * `cf push` to send the updated code to Cloud Foundry
