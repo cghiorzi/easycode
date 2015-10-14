@@ -22,4 +22,4 @@ To Install:
 To Update
 * Edit the `getName()` function in the `src/main/resources/templates/index.html` file 
 * Run `mvn package` in the top level easycode directory to recompile the Java jar
-* `cf push` to send to Cloud Foundry
+* `cf push` to send the updated code to Cloud Foundry
