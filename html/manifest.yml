@@ -1,0 +1,9 @@
+---
+applications:
+- name: easycode
+  memory: 512M
+  host: easycode
+  domain: cfapps.io
+memory: 512MB
+host: easycode
+buildpack: staticfile_buildpack
