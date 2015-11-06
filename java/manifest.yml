@@ -2,9 +2,8 @@
 applications:
 - name: easycode
   memory: 512M
-  host: easycode
   domain: cfapps.io
-memory: 512MB
-host: easycode
+disk_quota: 100MB
 path: target\easycode-0.0.1-SNAPSHOT.jar
+buildpack: java_buildpack
 

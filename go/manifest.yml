@@ -2,8 +2,6 @@
 applications:
 - name: easycode
   memory: 512M
-  host: easycode
   domain: cfapps.io
-memory: 512MB
-host: easycode
+disk_quota: 100MB
 buildpack: go_buildpack

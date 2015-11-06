@@ -13,7 +13,7 @@ will accept any location that Google Maps accepts, such as:
 
 To push to Cloud Foundry:
 -
-* Edit the Cloud Foundry `manifest.yml` file and change the `name` and `host` parameters to something unique
+* Edit the Cloud Foundry `manifest.yml` file and change the `name` parameter to something unique
 * `cf push` to send to Cloud Foundry
 
 To Update:

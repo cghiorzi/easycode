@@ -17,15 +17,15 @@ To Compile:
 * Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Install [Apache Maven](https://maven.apache.org/download.cgi)
 * Git clone this repo
-* Run `mvn package` in the top level easycode directory
+* Run `mvn package` in the top level `easycode/java` directory
 
 To Push to Cloud Foundry:
 -
-* Edit the Cloud Foundry `manifest.yml` file and change the `name` and `host` parameters to something unique
+* Edit the Cloud Foundry `manifest.yml` file and change the `name` parameter to something unique
 * `cf push` to send to Cloud Foundry
 
 To Update:
 -
 * Edit the `getName()` function in the `src/main/resources/templates/index.html` file 
-* Run `mvn package` in the top level easycode directory to recompile the Java jar
+* Run `mvn package` in the top level `easycode/java` directory to recompile the Java jar
 * `cf push` to send the updated code to Cloud Foundry
