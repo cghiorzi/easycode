@@ -12,6 +12,6 @@ will accept any location that Google Maps accepts, such as:
 
 There are multiple versions of the same application, each in a different language. Each page has a separate readme that explains how to install and update in that particular language.
 * [Static HTML](https://github.com/seethedata/easycode/tree/master/html)
-* [Java using Spring](https://github.com/seethedata/easycode/tree/java)
+* [Java using Spring](https://github.com/seethedata/easycode/tree/master/java)
 * [Go](https://github.com/seethedata/easycode/tree/master/go)
 
