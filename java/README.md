@@ -12,12 +12,15 @@ will accept any location that Google Maps accepts, such as:
 
 The Java version of Easycode must be compilied before pushing to Cloud Foundry. Instructions are below.
 
-To Install:
+To Compile:
 -
 * Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Install [Apache Maven](https://maven.apache.org/download.cgi)
 * Git clone this repo
 * Run `mvn package` in the top level easycode directory
+
+To Push to Cloud Foundry:
+-
 * Edit the Cloud Foundry `manifest.yml` file and change the `name` and `host` parameters to something unique
 * `cf push` to send to Cloud Foundry
 

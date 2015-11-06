@@ -11,7 +11,7 @@ will accept any location that Google Maps accepts, such as:
 *	Landmarks. e.g. "Grand Canyon"
 
 
-To Install:
+To push to Cloud Foundry:
 -
 * Edit the Cloud Foundry `manifest.yml` file and change the `name` and `host` parameters to something unique
 * `cf push` to send to Cloud Foundry
