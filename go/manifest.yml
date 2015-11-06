@@ -7,4 +7,3 @@ applications:
 memory: 512MB
 host: easycode
 buildpack: go_buildpack
-command: go
