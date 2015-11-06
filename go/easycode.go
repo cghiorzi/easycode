@@ -31,9 +31,9 @@ func getName() string{
 
 func main() {
 	http.HandleFunc("/",responseHandler)
-	http.Handle("/images/",http.StripPrefix("/images/",http.FileServer(http.Dir("/home/vcap/app/images"))))
-	http.Handle("/css/",http.StripPrefix("/css/",http.FileServer(http.Dir("/home/vcap/app/css"))))
-	http.Handle("/fonts/",http.StripPrefix("/fonts/",http.FileServer(http.Dir("/home/vcap/app/fonts"))))
-	http.Handle("/js/",http.StripPrefix("/js/",http.FileServer(http.Dir("/home/vcap/app/js"))))
+	http.Handle("/images/",http.FileServer(http.Dir("")))
+	http.Handle("/css/",http.FileServer(http.Dir("")))
+	http.Handle("/fonts/",http.FileServer(http.Dir("")))
+	http.Handle("/js/",http.FileServer(http.Dir("")))
 	log.Fatal(http.ListenAndServe(":8080",nil))
 }
