@@ -16,7 +16,6 @@ To Compile:
 -
 * Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Install [Apache Maven](https://maven.apache.org/download.cgi)
-* Git clone this repo
 * Run `mvn package` in the top level `easycode/java` directory
 
 To Push to Cloud Foundry:
