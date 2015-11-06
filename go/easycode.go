@@ -7,6 +7,10 @@ import (
 	"log"
 )
 
+func getName() string{
+	return "Philadelphia, PA"
+}
+
 type Location struct {
     Name string
 }
@@ -25,9 +29,6 @@ func responseHandler(w http.ResponseWriter, r *http.Request) {
 	t.Execute(w,location)
 }
 
-func getName() string{
-	return "Philadelphia, PA"
-}
 
 func main() {
 	http.HandleFunc("/",responseHandler)
