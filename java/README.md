@@ -25,6 +25,6 @@ To Push to Cloud Foundry:
 
 To Update:
 -
-* Edit the `getName()` function in the `src/main/resources/templates/index.html` file 
+* Edit the `getName()` function in the `src/main/java/easycode/EasycodeController.java` file 
 * Run `mvn package` in the top level `easycode/java` directory to recompile the Java jar
 * `cf push` to send the updated code to Cloud Foundry

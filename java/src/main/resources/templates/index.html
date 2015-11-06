@@ -5,17 +5,11 @@
 <script type='text/javascript' src='js/jquery.min.js'></script>
 <script type='text/javascript' src='js/bootstrap.min.js'></script>
 <script type='text/javascript' src='js/d3.min.js'></script>
-<script>
-function getName() {
-	return "Philadelphia, PA";
-}
-
-function enterNames() {
-	$("#message").html("<h1>Coding in Java is easy for the folks in " + getName() + "!</h1>");
-}
+<script th:inline="javascript">
 
 function loadMap() {
-var locations=[{"location" : escape(getName())}];
+var location=/*[[${location}]]*/;
+var locations=[{"location" : location }];
 var mapview=d3.select("#mapview").selectAll(".map").data(locations);
 	mapview.exit().remove();
 	mapview.enter()
@@ -28,7 +22,6 @@ var mapview=d3.select("#mapview").selectAll(".map").data(locations);
 } 
  
  function initialize() {
- enterNames();
  loadMap();
  }
 </script>
@@ -57,7 +50,7 @@ var mapview=d3.select("#mapview").selectAll(".map").data(locations);
 		  </div>
     </nav>
 	<center>
-	<div id='message' class="row col-xs-12"></div>
+	<div id='message' class="row col-xs-12"><h1>Coding in Java with Spring is easy for the folks in <span th:text="${location}"></span>!</h1>"</div>
 	<img src='images/cf.png'/>
 	<div id='mapview'></div>
 	
