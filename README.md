@@ -11,8 +11,7 @@ will accept any location that Google Maps accepts, such as:
 *	Landmarks. e.g. "Grand Canyon"
 
 There are multiple versions of the same application, each in a different language. Each page has a separate readme that explains how to install and update in that particular language.
--
-* [Static HTML](https://github.com/seethedata/easycode/html)
-* [Java using Spring](https://github.com/seethedata/easycode/java)
-* [Go](https://github.com/seethedata/easycode/go)
-* 
+* [Static HTML](https://github.com/seethedata/easycode/tree/master/html)
+* [Java using Spring](https://github.com/seethedata/easycode/tree/java)
+* [Go](https://github.com/seethedata/easycode/tree/master/go)
+
