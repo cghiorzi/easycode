@@ -1,8 +1,5 @@
 {
-	"ImportPath": "github.com/seethedata",
+	"ImportPath": "github.com/seethedata/easycode/go",
 	"GoVersion": "go1.5.1",
-	"Packages": [
-		"github.com/seethedata/easycode/go"
-	],
 	"Deps": []
 }

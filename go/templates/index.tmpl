@@ -2,10 +2,10 @@
 <html>
 <head>
 <title>EasyCode for {{.Name}}</title>
-<link href="css/bootstrap.min.css" rel="stylesheet"/>
-<script type='text/javascript' src='js/jquery.min.js'></script>
-<script type='text/javascript' src='js/bootstrap.min.js'></script>
-<script type='text/javascript' src='js/d3.min.js'></script>
+<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+<script type='text/javascript' src='../js/jquery.min.js'></script>
+<script type='text/javascript' src='../js/bootstrap.min.js'></script>
+<script type='text/javascript' src='../js/public/d3.min.js'></script>
 
 <script>
 function loadMap() {
@@ -48,12 +48,12 @@ function initialize() {
 			  <a class="navbar-brand" href="#">EasyCode</a>
 			  
 			</div>
-			<img class="col-xs-3" src="images/federation-bar.png"/>
+			<img class="col-xs-3" src="/images/federation-bar.png"/>
 		  </div>
     </nav>
 	<center>
 	<div id='message' class="row col-xs-12"><h1>Coding is easy for the folks in {{.Name}}!</h1></div>
-	<img src='images/cf.png'/>
+	<img src='/images/cf.png'/>
 	<div id='mapview'></div>
 	
 	</center>
