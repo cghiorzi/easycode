@@ -2,7 +2,7 @@ EasyCode - Go Version
 =
 
 EasyCode is a simple webpage that is designed to highlight the ease with which changes can be pushed to production using Cloud Foundry. 
-The page will display a greeting as well as a Google map of the location specified in `getName()` function in the index.html file (located in the `src/main/resources/templates` directory). The code 
+The page will display a greeting as well as a Google map of the location specified in `getName()` function in the `easycode.go` file. The code 
 will accept any location that Google Maps accepts, such as:
 
 *	City and State. e.g. "Philadelphia, PA"
