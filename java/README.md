@@ -10,6 +10,7 @@ will accept any location that Google Maps accepts, such as:
 *	Addresses. e.g. "176 South Street Hopkinton, MA 01748"
 *	Landmarks. e.g. "Grand Canyon"
 
+The Java version of Easycode must be compilied before pushing to Cloud Foundry. Instructions are below.
 
 To Install:
 -
