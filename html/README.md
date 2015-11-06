@@ -1,4 +1,4 @@
-EasyCode - Static HTML Version
+EasyCode - HTML/Javascript Version
 =
 
 EasyCode is a simple webpage that is designed to highlight the ease with which changes can be pushed to production using Cloud Foundry. 
