@@ -16,4 +16,5 @@ There are multiple versions of the same application in this repository, each in 
 * [Java using Spring](https://github.com/seethedata/easycode/tree/master/java)
 * [Go](https://github.com/seethedata/easycode/tree/master/go)
 * [PHP](https://github.com/seethedata/easycode/tree/master/php)
+* [Node.js](https://github.com/seethedata/easycode/tree/master/nodejs)
 
