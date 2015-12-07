@@ -18,5 +18,5 @@ To Push to Cloud Foundry:
 
 To Update:
 -
-* Edit the `getName()` function in the `easycode.go` file 
+* Edit the `@location` variable in the `app/controllers/main_controller.rb` file 
 * `cf push` to send the updated code to Cloud Foundry
