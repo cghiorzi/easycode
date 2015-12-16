@@ -2,7 +2,6 @@
 applications:
 - name: easycode
   memory: 512M
-  domain: cfapps.io
 disk_quota: 300MB
 buildpack: ruby_buildpack
 env: 
