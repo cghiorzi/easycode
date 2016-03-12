@@ -1,0 +1,6 @@
+---
+applications:
+- name: easycode
+  memory: 512M
+disk_quota: 200MB
+buildpack: python_buildpack

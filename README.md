@@ -17,5 +17,6 @@ There are multiple versions of the same application in this repository, each in 
 * [Go](https://github.com/seethedata/easycode/tree/master/go)
 * [PHP](https://github.com/seethedata/easycode/tree/master/php)
 * [Node.js](https://github.com/seethedata/easycode/tree/master/nodejs)
+* [Python](https://github.com/seethedata/easycode/tree/master/python)
 * [Ruby On Rails] (https://github.com/seethedata/easycode/tree/master/rubyonrails) *Note: pushes for the rails version only work on Linux.*
 

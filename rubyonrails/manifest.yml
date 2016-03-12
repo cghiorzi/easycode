@@ -6,3 +6,5 @@ disk_quota: 300MB
 buildpack: ruby_buildpack
 env: 
  RAILS_SERVE_STATIC_FILES: true
+
+
