@@ -1,6 +1,5 @@
 EasyCode - Ruby On Rails Version
 =
-*Note: pushes for the rails version only work on Linux*
 
 EasyCode is a simple webpage that is designed to highlight the ease with which changes can be pushed to production using Cloud Foundry. 
 The page will display a greeting as well as a Google map of the location specified in `@location` variable in the `app/controllers/main_controller.rb` file. The code 
