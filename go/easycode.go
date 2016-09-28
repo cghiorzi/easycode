@@ -11,7 +11,7 @@ func getName() string {
 	return "Philadelphia, PA"
 }
 
-type Location struct {
+type location struct {
 	Name string
 }
 
@@ -22,7 +22,7 @@ func check(function string, e error) {
 }
 
 func responseHandler(w http.ResponseWriter, r *http.Request) {
-	location := Location{Name: getName()}
+	location := location{Name: getName()}
 	t, err := template.ParseFiles("templates/index.tmpl")
 	check("Parse template", err)
 	t.Execute(w, location)
