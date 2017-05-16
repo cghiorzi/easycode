@@ -18,5 +18,5 @@ There are multiple versions of the same application in this repository, each in 
 * [PHP](https://github.com/seethedata/easycode/tree/master/php)
 * [Node.js](https://github.com/seethedata/easycode/tree/master/nodejs)
 * [Python](https://github.com/seethedata/easycode/tree/master/python)
-* [Ruby On Rails] (https://github.com/seethedata/easycode/tree/master/rubyonrails)
+* [Ruby On Rails](https://github.com/seethedata/easycode/tree/master/rubyonrails)
 
